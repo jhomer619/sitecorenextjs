@@ -14,7 +14,6 @@ type ArticleProps = ComponentProps & {
  * JSS component that's useful.
  */
 
-
 export const Default = ({ fields }: ArticleProps): JSX.Element => (
   <div className="contentBlock">
     <Text tag="h2" className="contentTitle" field={fields.Title} />
@@ -22,4 +21,3 @@ export const Default = ({ fields }: ArticleProps): JSX.Element => (
     <Text className="contentDescription" field={fields.Description} />
   </div>
 );
-
